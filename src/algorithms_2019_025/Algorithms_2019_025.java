@@ -1,25 +1,22 @@
 package algorithms_2019_025;
 import java.util.Scanner;
 /**
- * MD.Humayun Kabir
+ * @author MD. Humayun Kabir
  */
 public class Algorithms_2019_025 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner s = new Scanner(System.in);
         System.out.println("================ (Algorithm) ===============");
         System.out.println(""
                 + "\t1) Data Structure \n"
                 + "\t2) Algorithms");
-        System.out.print("Enter your choice:> ");
+        System.out.print("Enter your choice: ");
         int choice = s.nextInt();
         System.out.println("============================================");
 
         if (choice == 1) {
+            boolean t = true;
+            while(t){
             System.out.println("================ (Data Structure) ===============");
             System.out.println(""
                     + "\t01.Bubble sort\n"
@@ -41,11 +38,13 @@ public class Algorithms_2019_025 {
                     + "\t17.Linked List\n"
                     + "\t18.Fibonacci Numbers\n"
                     + "\t19.Recurrence");
-            System.out.print("Enter your choice--> ");
+            System.out.print("Enter your choice: ");
             int c1 = s.nextInt(); // to input
 
             switch (c1) {
                 case 1:
+                   BubbleSort b = new BubbleSort(); // create BubbleSort object
+                   b.bubble_sort(); // call bubble_sort method
                     break;
                 case 2:
                     break;
@@ -83,11 +82,17 @@ public class Algorithms_2019_025 {
                     break;
                 case 19:
                     break;
+                case 0:
+                    t = false;
+                    break;
                 default:
+                    System.out.println("Invalid input!!! Please enter valid input");
                     break;
 
             }
-        } else if (choice == 2) {
+            }
+        }
+        if (choice == 2) {
             System.out.println("================ (Algorithm) ===============");
             System.out.println(""
                     + "\t01.Largest common subsequence \n "
