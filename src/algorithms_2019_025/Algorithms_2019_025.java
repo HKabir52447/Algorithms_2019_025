@@ -42,11 +42,16 @@ public class Algorithms_2019_025 {
             int c1 = s.nextInt(); // to input
 
             switch (c1) {
+                case 0:
+                    t = false;
+                    break;
                 case 1:
                    BubbleSort b = new BubbleSort(); // create BubbleSort object
                    b.bubble_sort(); // call bubble_sort method
                     break;
                 case 2:
+                    InsertionSort insert = new InsertionSort();
+                    insert.Insertion_Sort();
                     break;
                 case 3:
                     break;
@@ -81,9 +86,6 @@ public class Algorithms_2019_025 {
                 case 18:
                     break;
                 case 19:
-                    break;
-                case 0:
-                    t = false;
                     break;
                 default:
                     System.out.println("Invalid input!!! Please enter valid input");
