@@ -54,6 +54,8 @@ public class Algorithms_2019_025 {
                     insert.Insertion_Sort();
                     break;
                 case 3:
+                    SelectionSort sel = new SelectionSort();
+                    sel.Selection_Sort();
                     break;
                 case 4:
                     break;
