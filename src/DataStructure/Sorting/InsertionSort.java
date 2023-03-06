@@ -1,4 +1,7 @@
-package algorithms_2019_025;
+package DataStructure.Sorting;
+
+import algorithms_2019_025.Input;
+import algorithms_2019_025.Output;
 
 /**
  * @author Humayun Kabir
@@ -7,6 +10,7 @@ public class InsertionSort {
     public void Insertion_Sort(){
         System.out.println("============== Insertion Sort ==============");
         Input in = new Input();
+        Output out = new Output();
         int arr[] = in.input_value();
         int len = arr.length;
         for(int i=1;i<len;i++){
@@ -24,7 +28,6 @@ public class InsertionSort {
             System.out.println("");
         }
 
-        System.out.println();
-        System.out.println("************************************************");
+        out.sortedArray(arr);
     }
 }

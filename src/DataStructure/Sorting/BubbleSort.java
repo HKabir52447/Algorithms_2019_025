@@ -1,5 +1,7 @@
-package algorithms_2019_025;
+package DataStructure.Sorting;
 
+import algorithms_2019_025.Input;
+import algorithms_2019_025.Output;
 import java.util.Scanner;
 
 /**
@@ -8,6 +10,7 @@ import java.util.Scanner;
 public class BubbleSort {
     Scanner s = new Scanner(System.in);
     Input in = new Input();
+    Output out = new Output();
     public void bubble_sort(){
         System.out.println("============== Bubble Sort ==============");
         Input in = new Input();
@@ -32,12 +35,9 @@ public class BubbleSort {
             System.out.print(arr[k]+" ");
         }
                 }
-               
-                    System.out.println();
-                }
-        }       
-        System.out.println();
-        System.out.println("************************************************");
-        
+            System.out.println();
+            }
+        }  
+        out.sortedArray(arr);
     }
 }

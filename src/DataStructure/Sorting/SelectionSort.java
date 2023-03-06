@@ -1,4 +1,7 @@
-package algorithms_2019_025;
+package DataStructure.Sorting;
+
+import algorithms_2019_025.Input;
+import algorithms_2019_025.Output;
 
 /**
  * @author Humayun Kabir
@@ -7,6 +10,7 @@ public class SelectionSort {
     public void Selection_Sort(){
         System.out.println("============== Selection Sort ==============");
         Input in = new Input();
+        Output out = new Output();
         int arr[] = in.input_value();
         int min,temp,i,j,len=arr.length,pass=1;
         for(i=0;i<len-1;i++){
@@ -26,11 +30,6 @@ public class SelectionSort {
             pass++;
             System.out.println("");
         }
-        System.out.println("************************************************");
-        System.out.print("After sorting the array: ");
-            for(int k=0;k<len;k++){
-                System.out.print(arr[k]+" ");
-            }
-        System.out.println("\n************************************************");
+        out.sortedArray(arr);
     }
 }

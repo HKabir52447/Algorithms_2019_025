@@ -1,4 +1,8 @@
 package algorithms_2019_025;
+import DataStructure.Sorting.SelectionSort;
+import DataStructure.Sorting.InsertionSort;
+import DataStructure.Sorting.BubbleSort;
+import DataStructure.Sorting.CountingSort;
 import java.util.Scanner;
 /**
  * @author MD. Humayun Kabir
@@ -62,6 +66,8 @@ public class Algorithms_2019_025 {
                 case 5:
                     break;
                 case 6:
+                    CountingSort count = new CountingSort();
+                    count.Count_Sort();
                     break;
                 case 7:
                     break;
