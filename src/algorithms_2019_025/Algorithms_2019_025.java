@@ -1,8 +1,5 @@
 package algorithms_2019_025;
-import DataStructure.Sorting.SelectionSort;
-import DataStructure.Sorting.InsertionSort;
-import DataStructure.Sorting.BubbleSort;
-import DataStructure.Sorting.CountingSort;
+import DataStructure.Sorting.*;
 import GraphAlgorithm.BFS;
 import GraphAlgorithm.DFS;
 import java.util.Scanner;
@@ -94,6 +91,8 @@ public class Algorithms_2019_025 {
                 case 17:
                     break;
                 case 18:
+                    Fibonacci fibo = new Fibonacci();
+                    fibo.fibonacci();
                     break;
                 case 19:
                     break;
