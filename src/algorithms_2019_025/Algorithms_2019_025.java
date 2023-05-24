@@ -3,6 +3,8 @@ import DataStructure.Sorting.SelectionSort;
 import DataStructure.Sorting.InsertionSort;
 import DataStructure.Sorting.BubbleSort;
 import DataStructure.Sorting.CountingSort;
+import GraphAlgorithm.BFS;
+import GraphAlgorithm.DFS;
 import java.util.Scanner;
 /**
  * @author MD. Humayun Kabir
@@ -138,8 +140,12 @@ public class Algorithms_2019_025 {
                 case 4:
                     break;
                 case 5:
+                    BFS gbfs = new BFS();
+                    gbfs.gBFS();
                     break;
                 case 6:
+                    DFS gdfs = new DFS();
+                    gdfs.gDFS();
                     break;
                 case 7:
                     break;
