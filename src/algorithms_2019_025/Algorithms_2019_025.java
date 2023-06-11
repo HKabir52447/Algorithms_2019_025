@@ -1,7 +1,7 @@
 package algorithms_2019_025;
+import DataStructure.Search.*;
 import DataStructure.Sorting.*;
-import GraphAlgorithm.BFS;
-import GraphAlgorithm.DFS;
+import GraphAlgorithm.*;
 import java.util.Scanner;
 /**
  * @author MD. Humayun Kabir
@@ -33,7 +33,7 @@ public class Algorithms_2019_025 {
                     + "\t09.Bin sort\n"
                     + "\t10.Shell sort\n"
                     + "\t11.Linear search\n"
-                    + "\t12.Bimary search\n"
+                    + "\t12.Binary search\n"
                     + "\t13.Euclidean GCD Algorithm\n"
                     + "\t14.Universal hashing\n"
                     + "\t15.Stack\n"
@@ -77,8 +77,12 @@ public class Algorithms_2019_025 {
                 case 10:
                     break;
                 case 11:
+                    LinearSearch lin = new LinearSearch();
+                    lin.Linear_Search();
                     break;
                 case 12:
+                    BinarySearch bin = new BinarySearch();
+                    bin.Binary_Search();
                     break;
                 case 13:
                     break;
