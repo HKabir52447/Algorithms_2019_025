@@ -1,4 +1,5 @@
 package algorithms_2019_025;
+import DataStructure.*;
 import DataStructure.Search.*;
 import DataStructure.Sorting.*;
 import GraphAlgorithm.*;
@@ -87,6 +88,8 @@ public class Algorithms_2019_025 {
                     bin.Binary_Search();
                     break;
                 case 13:
+                    EuclidGCD gcd = new EuclidGCD();
+                    gcd.Euclid_GCD();
                     break;
                 case 14:
                     break;
