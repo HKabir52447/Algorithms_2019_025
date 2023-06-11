@@ -75,6 +75,8 @@ public class Algorithms_2019_025 {
                 case 9:
                     break;
                 case 10:
+                    ShellSort shel = new ShellSort();
+                    shel.Shell_Sort();
                     break;
                 case 11:
                     LinearSearch lin = new LinearSearch();
