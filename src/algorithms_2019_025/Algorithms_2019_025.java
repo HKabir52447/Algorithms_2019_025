@@ -94,6 +94,8 @@ public class Algorithms_2019_025 {
                 case 14:
                     break;
                 case 15:
+                    StackOp st = new StackOp();
+                    st.stack();
                     break;
                 case 16:
                     QueueOp q = new QueueOp();
