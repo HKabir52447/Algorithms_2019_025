@@ -96,6 +96,8 @@ public class Algorithms_2019_025 {
                 case 15:
                     break;
                 case 16:
+                    QueueOp q = new QueueOp();
+                    q.queue();
                     break;
                 case 17:
                     break;
