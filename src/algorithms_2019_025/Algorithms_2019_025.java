@@ -72,6 +72,8 @@ public class Algorithms_2019_025 {
                     count.Count_Sort();
                     break;
                 case 7:
+                    RadixSort rsort = new RadixSort();
+                    rsort.run();
                     break;
                 case 8:
                     HeapSort heap = new HeapSort();

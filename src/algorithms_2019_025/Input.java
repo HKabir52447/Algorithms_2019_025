@@ -22,7 +22,7 @@ public class Input {
             System.out.print(arr[i]+" ");
         }
         System.out.println();
-        System.out.println("************************************************");
+        System.out.println("");
         return arr;
     }
     
