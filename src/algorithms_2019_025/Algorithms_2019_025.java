@@ -176,6 +176,8 @@ public class Algorithms_2019_025 {
                     prim.run();
                     break;
                 case 12:
+                    DijkstraAlgo dij = new DijkstraAlgo();
+                    dij.run();
                     break;
                 case 13:
                     break;
