@@ -108,6 +108,8 @@ public class Algorithms_2019_025 {
                     fibo.fibonacci();
                     break;
                 case 19:
+                    Recurrence rec = new Recurrence();
+                    rec.recur();
                     break;
                 default:
                     System.out.println("Invalid input!!! Please enter valid input");
