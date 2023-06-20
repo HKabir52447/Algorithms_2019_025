@@ -7,7 +7,7 @@ import algorithms_2019_025.*;
 public class HeapSort {
     public void Heap_Sort(){
         System.out.println("\u001B[34m============== Heap Sort ==============\u001B[0m");
-    Input in = new Input();
+        Input in = new Input();
         Output out = new Output();
         int arr[] = in.input_value();
         int len = arr.length;

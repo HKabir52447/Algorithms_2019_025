@@ -64,6 +64,8 @@ public class Algorithms_2019_025 {
                 case 4:
                     break;
                 case 5:
+                    QuickSort qsort = new QuickSort();
+                    qsort.run();
                     break;
                 case 6:
                     CountingSort count = new CountingSort();
