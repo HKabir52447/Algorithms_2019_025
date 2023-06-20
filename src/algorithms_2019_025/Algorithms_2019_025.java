@@ -141,7 +141,7 @@ public class Algorithms_2019_025 {
                     + "\t18.Activity selection problem \n "
                     + "\t19.Recurrence \n "
                     + "\t20.Max flow min cut");
-            System.out.print("Enter your choice--> ");
+            System.out.print("Enter your choice: ");
             int c1 = s.nextInt();
 
             switch (c1) {
@@ -170,6 +170,8 @@ public class Algorithms_2019_025 {
                 case 10:
                     break;
                 case 11:
+                    Prims prim = new Prims();
+                    prim.run();
                     break;
                 case 12:
                     break;
