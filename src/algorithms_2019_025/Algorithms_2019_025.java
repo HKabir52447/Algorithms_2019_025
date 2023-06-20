@@ -135,7 +135,7 @@ public class Algorithms_2019_025 {
                     + "\t12.Dijkastra's algorithm \n "
                     + "\t13.Bellman ford's algorithm \n "
                     + "\t14.Warshall's algorithm \n "
-                    + "\t15.(0,1) KKnapsack problem \n "
+                    + "\t15.(0,1) Knapsack problem \n "
                     + "\t16.Naive string matching algorithm \n "
                     + "\t17.Rabin krap string matching algorithm \n "
                     + "\t18.Activity selection problem \n "
@@ -168,6 +168,8 @@ public class Algorithms_2019_025 {
                 case 9:
                     break;
                 case 10:
+                    Kruskals krus = new Kruskals(0,0);
+                    krus.run();
                     break;
                 case 11:
                     Prims prim = new Prims();

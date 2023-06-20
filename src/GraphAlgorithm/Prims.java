@@ -20,9 +20,13 @@ public class Prims {
     }
 
     void printMST(int parent[], int graph[][]) {
-        System.out.println("Edge \t\tWeight");
-        for (int i = 1; i < V; i++)
+        System.out.println("\nEdge \t\tWeight");
+        int cost = 0;
+        for (int i = 1; i < V; i++){
             System.out.println(parent[i] + " <--> " + i + "\t" + graph[i][parent[i]]);
+            cost += graph[i][parent[i]];
+        }
+        System.out.println("\033[1mMinimum cost is: "+cost);
     }
 
     void primMST(int graph[][]) {
