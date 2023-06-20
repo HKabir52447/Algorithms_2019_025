@@ -26,7 +26,7 @@ public class Algorithms_2019_025 {
                     + "\t01.Bubble sort\n"
                     + "\t02.Insertion sort\n"
                     + "\t03.Selection sort\n"
-                    + "\t04.Marge sort\n"
+                    + "\t04.Merge sort\n"
                     + "\t05.Quick sort\n"
                     + "\t06.Counting sort\n"
                     + "\t07.Radix sort\n"
@@ -62,6 +62,8 @@ public class Algorithms_2019_025 {
                     sel.Selection_Sort();
                     break;
                 case 4:
+                    MergeSort msort = new MergeSort();
+                    msort.run();
                     break;
                 case 5:
                     QuickSort qsort = new QuickSort();

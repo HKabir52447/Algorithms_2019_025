@@ -62,8 +62,7 @@ public class RadixSort {
         Output out = new Output();
         int arr[] = in.input_value();
         int len = arr.length;
-    RadixSort rs = new RadixSort();
-    rs.radixSort(arr, len);
+    radixSort(arr, len);
     out.sortedArray(arr);
   }
 }
