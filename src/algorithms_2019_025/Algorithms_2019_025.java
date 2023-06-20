@@ -72,6 +72,8 @@ public class Algorithms_2019_025 {
                 case 7:
                     break;
                 case 8:
+                    HeapSort heap = new HeapSort();
+                    heap.Heap_Sort();
                     break;
                 case 9:
                     break;
