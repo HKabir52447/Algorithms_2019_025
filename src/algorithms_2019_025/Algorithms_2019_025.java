@@ -210,6 +210,8 @@ public class Algorithms_2019_025 {
                     knap.run();
                     break;
                 case 16:
+                    NaivePSearch nPtr = new NaivePSearch();
+                    nPtr.run();
                     break;
                 case 17:
                     break;
