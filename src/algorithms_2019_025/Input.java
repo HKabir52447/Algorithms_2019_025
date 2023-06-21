@@ -16,7 +16,7 @@ public class Input {
             arr[i] = s.nextInt();
         }
         System.out.println("************************************************");
-        System.out.print("Before sorting the array: ");
+        System.out.print("Orginal array: ");
         for(int i=0;i<size;i++){
             System.out.print(arr[i]+" ");
         }

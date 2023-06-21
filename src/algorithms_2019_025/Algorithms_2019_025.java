@@ -162,6 +162,8 @@ public class Algorithms_2019_025 {
                     obst.run();
                     break;
                 case 3:
+                    MatrixChainMult cMult = new MatrixChainMult();
+                    cMult.run();
                     break;
                 case 4:
                     break;
