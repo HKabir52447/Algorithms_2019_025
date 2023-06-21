@@ -214,6 +214,11 @@ public class Algorithms_2019_025 {
                     nPtr.run();
                     break;
                 case 17:
+                    RabinKarpSearch rKrap = new RabinKarpSearch();
+                    String text = "HELLO WORLD HELLO";
+                    String pat = "HELLO";
+                    int q = 101;
+                    rKrap.run(text, pat, q);
                     break;
                 case 18:
                     break;
