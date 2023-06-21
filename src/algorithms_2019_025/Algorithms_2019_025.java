@@ -174,6 +174,8 @@ public class Algorithms_2019_025 {
                 case 8:
                     break;
                 case 9:
+                    TopologicalSort tSort = new TopologicalSort(0);
+                    tSort.run();
                     break;
                 case 10:
                     Kruskals krus = new Kruskals(0,0);
