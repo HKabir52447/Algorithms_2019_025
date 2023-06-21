@@ -198,6 +198,8 @@ public class Algorithms_2019_025 {
                     dij.run();
                     break;
                 case 13:
+                    BellmanFord bFord = new BellmanFord();
+                    bFord.run();
                     break;
                 case 14:
                     break;
