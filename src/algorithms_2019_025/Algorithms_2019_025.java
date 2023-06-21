@@ -194,6 +194,8 @@ public class Algorithms_2019_025 {
                 case 14:
                     break;
                 case 15:
+                    KnapSack knap = new KnapSack();
+                    knap.run();
                     break;
                 case 16:
                     break;
