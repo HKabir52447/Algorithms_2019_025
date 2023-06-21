@@ -202,6 +202,8 @@ public class Algorithms_2019_025 {
                     bFord.run();
                     break;
                 case 14:
+                    FloydWarshall fWarshall = new FloydWarshall();
+                    fWarshall.run();
                     break;
                 case 15:
                     KnapSack knap = new KnapSack();
