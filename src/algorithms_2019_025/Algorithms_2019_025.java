@@ -158,6 +158,8 @@ public class Algorithms_2019_025 {
                     lcs.run();
                     break;
                 case 2:
+                    OBST obst = new OBST();
+                    obst.run();
                     break;
                 case 3:
                     break;
