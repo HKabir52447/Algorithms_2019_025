@@ -154,6 +154,8 @@ public class Algorithms_2019_025 {
 
             switch (c1) {
                 case 1:
+                    LCS lcs = new LCS();
+                    lcs.run();
                     break;
                 case 2:
                     break;
