@@ -174,6 +174,8 @@ public class Algorithms_2019_025 {
                 case 7:
                     break;
                 case 8:
+                    LIS lis = new LIS();
+                    lis.run();
                     break;
                 case 9:
                     TopologicalSort tSort = new TopologicalSort(0);
